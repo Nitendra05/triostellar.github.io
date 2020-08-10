@@ -757,12 +757,6 @@ input[type='checkbox'] {
 	background-color: #fff;
 }
 
-.header .header-content {
-	padding-top: 8rem;
-	padding-bottom: 4rem;
-	text-align: center;
-}
-
 .header .text-container {
 	margin-bottom: 4rem;
 }
@@ -803,7 +797,6 @@ input[type='checkbox'] {
 /*     06. Services     */
 /************************/
 .cards-1 {
-	padding-top: 4rem;
 	padding-bottom: 1.625rem;
 	text-align: center;
 }
@@ -1634,10 +1627,6 @@ a:hover.back-to-top {
 
 
 	/* Header */
-	.header .header-content {
-		padding-top: 10.5rem;
-	}
-
 	.header h1 {
 		font-size: 3rem;
 		line-height: 3.5rem;
@@ -1856,13 +1845,9 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		background: url('../images/header-background.jpg') center center no-repeat;
+		background: url('../images/parallax1 (2).jpg') center center no-repeat;
 		background-size: cover; 
-	}
-
-	.header .header-content {
-		padding-top: 11.5rem;
-		text-align: left;
+		background-attachment: fixed;
 	}
 
 	.header .text-container {
@@ -2032,10 +2017,6 @@ a:hover.back-to-top {
 
 
 	/* Header */
-	.header .header-content {
-		padding-top: 12.5rem;
-	}
-
 	.header .text-container {
 		margin-top: 5.375rem;
 		margin-left: 1rem;
@@ -2073,7 +2054,7 @@ a:hover.back-to-top {
 
 	/* Details 1 */
 	.basic-1 .text-container {
-		margin-top: 6.125rem;
+		margin-top: 4.125rem;
 		margin-right: 4rem;
 		margin-left: 1rem;
 	}
@@ -2082,7 +2063,7 @@ a:hover.back-to-top {
 
 	/* Details 2 */
 	.basic-2 .text-container {
-		margin-top: 5.375rem;
+		margin-top: 2.375rem;
 		margin-right: 1rem;
 		margin-left: 4rem;
 	}
@@ -2182,3 +2163,19 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+
+/* Custome Style */
+.header-content{
+	height: 100vh;
+}
+
+.head-content{
+	background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
