@@ -754,7 +754,9 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background-color: #fff;
+	background: url('../images/parallax1 (2).jpg') center center no-repeat;
+	background-size: cover; 
+	background-attachment: fixed;
 }
 
 .header .text-container {
@@ -1973,8 +1975,9 @@ a:hover.back-to-top {
 
 	/* Extra Pages */
 	.ex-header {
-		background: url('../images/ex-header-background.jpg') center center no-repeat;
-		background-size: cover;
+		background: url('../images/parallax1 (2).jpg') center center no-repeat;
+		background-size: cover; 
+		background-attachment: fixed;
 	}
 
 	.ex-header h1 {
