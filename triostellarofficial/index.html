@@ -19,6 +19,7 @@
 	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/ts2.png">
@@ -28,7 +29,12 @@
             background: url('images/parallax (15).jpg') no-repeat center;
             background-size: cover;
             background-attachment: fixed;
-            width: 100%;
+        }
+
+        .parallax1{
+            background: url('images/parallax (16).jpg') no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
         }
     </style>
 </head>
@@ -83,15 +89,15 @@
 
     <!-- Header -->
     <header id="header" class="header">
-        <div class="header-content">
+        <div class="header-content" style="background-color: rgba(0, 0, 0, 0.6);">
             <div class="container">
                 <div class="row" style="height: 100vh">
-                    <div class="col-lg-4 d-none d-lg-block">
+                    <div class="col-lg-6 d-none d-lg-block">
                         <div class="head-content">
                             <img class="img-fluid" src="images/parallax (12).jpg" alt="alternative">
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
-                    <div class="col-lg-8">
+                    <div class="col-lg-6">
                         <div class="head-content">
                             <h1><span class="turquoise">Trio<span style="color:#fee715;font-family:'Amaranth';">Stellar</span> </span></h1><h3> Creative Solutions</h3></h1>
                             <p class="p-large">Use TrioStellar to promote your business startup and generate leads for the offered services.</p>
@@ -105,103 +111,64 @@
     <!-- end of header -->
 
     <!-- Services -->
-    <div id="services" class="cards-1">
+    <div id="services" class="cards-1 parallax">
         <div class="container-fluid">
-            <div class="row">
-                <div class="parallax">
-                    <div style="height: 200px;width: 100%;padding: 40px 0 0 0;background: rgba(255, 255, 255 , 0.6);">
-                        <h2>Get Started with Us</h2>
-                        <p class="p-heading p-large"><span style="color: #000000">We serve small and medium sized companies in all tech related industries with high quality growth services which are presented below</span></p>
-                    </div>
+            <div class="row" data-aos="zoom-in">
+                <div style="height: 200px;width: 100%;padding: 40px 0 0 0;background: rgba(255, 255, 255 , 1);box-shadow: 0 0 10px #000000;">
+                    <h2>Get Started with Us</h2>
+                    <p class="p-heading p-large"><span style="color: #000000">We serve small and medium sized companies in all tech related industries with high quality growth services which are presented below</span></p>
                 </div>
             </div>
-        </div> <!-- end of row -->
-        <div class="row">
-            <div class="col-lg-12">
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
+            <div class="row pt-5">
+                <div class="col-lg-12">
+                    <div class="card-deck pt-4">
+                        <div class="card" data-aos="flip-right">
+                            <img class="card-img-top" src="images/parallax (10).svg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Web Development & Designing</h4>
+                                <p class="card-text">Use our staff and our expertise to design and plan your business growth strategy. TrioStellar team is eager to advise
+                                you on the best opportunities that you should look into</p>
+                                <!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+                            </div>
+                        </div>
+                        <div class="card" data-aos="flip-right">
+                            <img class="card-img-top" src="images/parallax (11).jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Search For Optimization Wherever Is Possible</h4>
+                                    <ul class="list-unstyled li-space-lg">
+                                        <li class="media">
+                                            <i class="fas fa-check"></i>
+                                            <div class="media-body">Basically we'll teach you step by step what you need to do</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-check"></i>
+                                            <div class="media-body">In order to develop your company and reach new heights</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-check"></i>
+                                            <div class="media-body">Everyone will be pleased from stakeholders to employees</div>
+                                        </li>
+                                    </ul>
+                                <!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+                            </div>
+                        </div>
+                        <div class="card" data-aos="flip-right">
+                            <img class="card-img-top" src="images/parallax (13).jpg" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                                <h4 class="card-title">Plan Your Business Growth Steps</h4>
+                                <p class="card-text">Use our staff and our expertise to design and plan your business growth strategy.
+                                    TrioStellar team is eager to advise
+                                    you on the best opportunities that you should look into</p>
+                                <!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+                            </div>
+                        </div>
+                    </div><!-- end of card-deck -->
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
     </div> <!-- end of container -->
     <!-- end of services -->
 
-
-    <!-- Details 1 -->
-    <div class="basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h2>Web Development & Designing</h2>
-                        <p>Use our staff and our expertise to design and plan your business growth strategy. TrioStellar team is eager to advise you on the best opportunities that you should look into</p>
-                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">LIGHTBOX</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/parallax (10).svg" alt="alternative" style="border-radius: 24px;">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of details 1 -->
-
-    
-    <!-- Details 2 -->
-    <div class="basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/parallax (11).jpg" alt="alternative" style="border-radius: 24px;">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h2>Search For Optimization Wherever Is Possible</h2>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-check"></i>
-                                <div class="media-body">Basically we'll teach you step by step what you need to do</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-check"></i>
-                                <div class="media-body">In order to develop your company and reach new heights</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-check"></i>
-                                <div class="media-body">Everyone will be pleased from stakeholders to employees</div>
-                            </li>
-                        </ul>
-                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">LIGHTBOX</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of details 2 -->
-
-    <!-- Details 3 -->
-    <div class="basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h2>Plan Your Business Growth Steps</h2>
-                        <p>Use our staff and our expertise to design and plan your business growth strategy. TrioStellar team is eager to advise you on the best opportunities that you should look into</p>
-                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">LIGHTBOX</a>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/parallax (13).jpg" alt="alternative" style="border-radius: 24px;">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-2 -->
-    <!-- end of details 3 -->
-
-    <!-- Details Lightboxes -->
     <!-- Details Lightbox 1 -->
 	<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
         <div class="container">
@@ -290,19 +257,17 @@
     <!-- end of details lightboxes -->
 
     <!-- About -->
-    <div id="about" class="basic-4">
-        <div class="container">
+    <div id="about" class="basic-4  parallax1">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12">
+                <div style="height: 200px;width: 100%;padding: 40px 0 0 0;background: rgba(255, 255, 255 , 1);box-shadow: 0 0 10px #000000;" data-aos="zoom-in">
                     <h2>About The Team</h2>
                     <p class="p-heading p-large">Meat our team of specialized marketers and business developers which will help you research new products and launch them in new emerging markets</p>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
+                </div>
+                <div class="col-lg-12 pt-5">
                     
                     <!-- Team Member -->
-                    <div class="team-member">
+                    <div class="team-member" data-aos="fade-up" data-aos-duration="3000">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/team-member-1.svg" alt="alternative">
                         </div> <!-- end of image-wrapper -->
@@ -320,7 +285,7 @@
                     <!-- end of team member -->
 
                     <!-- Team Member -->
-                    <div class="team-member">
+                    <div class="team-member" data-aos="fade-up" data-aos-duration="3000">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/team-member-2.svg" alt="alternative">
                         </div> <!-- end of image wrapper -->
@@ -338,7 +303,7 @@
                     <!-- end of team member -->
 
                     <!-- Team Member -->
-                    <div class="team-member">
+                    <div class="team-member" data-aos="fade-up" data-aos-duration="3000">
                         <div class="image-wrapper">
                             <img class="img-fluid" src="images/team-member-3.svg" alt="alternative">
                         </div> <!-- end of image wrapper -->
@@ -495,5 +460,9 @@
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
