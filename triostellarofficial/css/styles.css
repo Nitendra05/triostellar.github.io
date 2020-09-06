@@ -275,7 +275,7 @@ a.white {
 	padding-left: 1.3125rem;
 	border: 1px solid #c4d8dc;
 	border-radius: 0.25rem;
-	background-color: #fff;
+	background-color: rgb(216, 211, 211);
 	color: #626262;
 	font: 400 0.875rem/1.875rem "Raleway", sans-serif;
 	transition: all 0.2s;
@@ -329,7 +329,7 @@ select::-ms-expand {
 	padding-left: 1.3125rem;
 	border: 1px solid #c4d8dc;
 	border-radius: 0.25rem;
-	background-color: #fff;
+	background-color: rgb(207, 207, 207);
 	color: #626262;
 	font: 400 0.875rem/1.75rem "Raleway", sans-serif;
 	transition: all 0.2s;
@@ -1403,8 +1403,7 @@ input[type='checkbox'] {
 /***********************/
 .form-2 {
 	padding-top: 4rem;
-	padding-bottom: 4rem;
-	background: url('../images/contact-background.jpg') center center no-repeat;
+	background: rgb(22, 21, 21);
 	background-size: cover; 
 }
 
@@ -1455,6 +1454,7 @@ input[type='checkbox'] {
 /**********************/
 .footer {
 	padding-bottom: 0.5rem;
+	background: rgb(22, 21, 21);
 }
 
 .footer .footer-col {
