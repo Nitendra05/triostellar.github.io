@@ -19,13 +19,13 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-if (empty($_POST["terms"])) {
-    $errorMSG = "Terms is required ";
-} else {
-    $terms = $_POST["terms"];
-}
+// if (empty($_POST["terms"])) {
+//     $errorMSG = "Terms is required ";
+// } else {
+//     $terms = $_POST["terms"];
+// }
 
-$EmailTo = "yourname@domain.com";
+$EmailTo = "triostellar@hotmail.com";
 $Subject = "New message from Evolo landing page";
 
 // prepare email body text
@@ -39,8 +39,8 @@ $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
-$Body .= "Terms: ";
-$Body .= $terms;
+// $Body .= "Terms: ";
+// $Body .= $terms;
 $Body .= "\n";
 
 // send email
