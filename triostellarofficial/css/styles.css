@@ -1619,6 +1619,7 @@ a:hover.back-to-top {
 @media (max-width: 768px) {
 	.f-link ul{
 		overflow-x:scroll;
+		width: 375px;
 	}
 }
 
