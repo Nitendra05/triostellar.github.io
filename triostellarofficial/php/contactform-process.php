@@ -26,7 +26,7 @@ if (empty($_POST["message"])) {
 // }
 
 $EmailTo = "triostellar@hotmail.com";
-$Subject = "New message from Evolo landing page";
+$Subject = "New message from triostellar";
 
 // prepare email body text
 $Body = "";
