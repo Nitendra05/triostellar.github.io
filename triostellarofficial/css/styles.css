@@ -2172,16 +2172,29 @@ font-size: 18px;
 }
 
 .s-facebook{
-	background-color: #3b5998; padding: 2px 5px; border-radius: 4px; color: white;
+	background-color: #3b5998; padding: 2px 5px; border-radius: 4px; 
 }
 .s-twitter{
-	background-color: #00acee; padding: 2px 5px; border-radius: 4px; color: white;
+	background-color: #00acee; padding: 2px 5px; border-radius: 4px; 
 }
 .s-instagram {
-	background-color: #E1306C; padding: 2px 5px; border-radius: 4px; color: white;
+	background-color: #E1306C; padding: 2px 5px; border-radius: 4px; 
 }
 .s-linkedin{
-	background-color: #0e76a8; padding: 2px 5px; border-radius: 4px; color: white;
+	background-color: #0e76a8; padding: 2px 5px; border-radius: 4px; 
+}
+
+.s-facebook a{
+	text-decoration: none; color: white;
+}
+.s-twitter a{
+	text-decoration: none; color: white;
+}
+.s-instagram  a{
+	text-decoration: none; color: white;
+}
+.s-linkedin a{
+	text-decoration: none; color: white;
 }
 
 .sv-bg{
